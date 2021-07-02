@@ -18,6 +18,7 @@ alias kubectl='podman run --rm -it -v ~/.kube:/root/.kube:z -v $PWD:/workdir:z $
 alias s2i='podman run --rm -it -v ~/.kube:/root/.kube:z -v $PWD:/workdir:z $IMAGE_URI s2i'
 alias operator-sdk='podman run --rm -it -v ~/.kube:/root/.kube:z -v $PWD:/workdir:z $IMAGE_URI operator-sdk'
 alias kn='podman run --rm -it -v ~/.kube:/root/.kube:z -v $PWD:/workdir:z $IMAGE_URI kn'
+alias func='podman run --rm -it -v ~/.kube:/root/.kube:z -v $PWD:/workdir:z $IMAGE_URI func'
 EOF
 
 echo "now run 'source $tmpfile'"

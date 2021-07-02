@@ -7,7 +7,7 @@ case $1 in
     if [ $1 != "help" ]; then
       echo "\"$1\" is not a supported command."
     fi
-    echo "Available commands are: oc, helm, template2helm, odo, kubectl, argocd, s2i, operator-sdk, kn"
+    echo "Available commands are: oc, helm, template2helm, odo, kubectl, argocd, s2i, operator-sdk, kn, func"
     ;;
 
   *)
